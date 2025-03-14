@@ -1,15 +1,17 @@
 import React from "react";
 import { HeadingContainer } from "./Heading.styled";
 
-function Heading() {
+interface HeadingProps {
+  label: string;
+  description: string;
+}
+
+function Heading({ label, description }: HeadingProps) {
   return (
     <>
       <HeadingContainer>
-        <label>Services</label>
-        <p>
-          At our digital marketing agency, we offer a range of services to help
-          businesses grow and succeed online. These services include:
-        </p>
+        <label>{label}</label>
+        <p>{description}</p>
       </HeadingContainer>
     </>
   );
