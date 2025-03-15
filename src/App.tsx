@@ -1,9 +1,11 @@
 import "./App.css";
 import Heading from "./components/Heading/Heading";
+import LandingPage from "./components/LandingPage/LandingPage";
 
 function App() {
   return (
     <>
+      <LandingPage></LandingPage>
       <Heading
         label="Services"
         description="At our digital marketing agency, we offer a range of services to help
