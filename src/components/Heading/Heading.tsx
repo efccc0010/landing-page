@@ -8,12 +8,10 @@ interface HeadingProps {
 
 function Heading({ label, description }: HeadingProps) {
   return (
-    <>
-      <HeadingContainer>
-        <label>{label}</label>
-        <p>{description}</p>
-      </HeadingContainer>
-    </>
+    <HeadingContainer>
+      <label>{label}</label>
+      <p>{description}</p>
+    </HeadingContainer>
   );
 }
 

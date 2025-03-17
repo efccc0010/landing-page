@@ -1,12 +1,23 @@
 import React from "react";
 import PositivusLogo from "@/assets/images/logos/positivus-logo.svg?react";
+import {
+  NavigationBarContainer,
+  NavigationBarMenuContainer,
+} from "./NavigationBar.styled";
 
 function NavigationBar() {
   return (
-    <>
+    <NavigationBarContainer>
       <PositivusLogo />
-      <h1>HOLA MUNDO</h1>
-    </>
+      <NavigationBarMenuContainer>
+        <a>About us</a>
+        <a>Services</a>
+        <a>Use Cases</a>
+        <a>Pricing</a>
+        <a>Blog</a>
+        <button>Request a quote</button>
+      </NavigationBarMenuContainer>
+    </NavigationBarContainer>
   );
 }
 
