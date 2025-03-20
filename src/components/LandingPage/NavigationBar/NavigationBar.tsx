@@ -10,11 +10,11 @@ function NavigationBar() {
     <NavigationBarContainer>
       <PositivusLogo />
       <NavigationBarMenuContainer>
-        <a>About us</a>
-        <a>Services</a>
-        <a>Use Cases</a>
-        <a>Pricing</a>
-        <a>Blog</a>
+        <a href="#">About us</a>
+        <a href="#">Services</a>
+        <a href="#">Use Cases</a>
+        <a href="#">Pricing</a>
+        <a href="#">Blog</a>
         <button>Request a quote</button>
       </NavigationBarMenuContainer>
     </NavigationBarContainer>
