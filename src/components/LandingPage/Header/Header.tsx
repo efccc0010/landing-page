@@ -21,7 +21,7 @@ function Header() {
         </HeaderTextDescription>
         <button>Book a consultation</button>
       </HeaderText>
-      <HeaderPicture />
+      <HeaderPicture> </HeaderPicture>
     </HeaderContainer>
   );
 }
