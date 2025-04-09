@@ -1,6 +1,8 @@
 import "./App.css";
 import Heading from "./components/Heading/Heading";
 import LandingPage from "./components/LandingPage/LandingPage";
+import ContactForm from "./components/ServicesBlock/ContactForm";
+import ServicesBlock from "./components/ServicesBlock/ServicesBlock";
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
         description="At our digital marketing agency, we offer a range of services to help
           businesses grow and succeed online. These services include:"
       />
+      <ServicesBlock></ServicesBlock>
       <Heading
         label="Case Studies"
         description="Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies"
@@ -31,6 +34,7 @@ function App() {
         label="Contact Us"
         description="Connect with Us: Let's Discuss Your Digital Marketing Needs"
       />
+      <ContactForm></ContactForm>
     </>
   );
 }
