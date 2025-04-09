@@ -1,77 +1,77 @@
 import styled from "styled-components";
 
 export const ContactFormContainer = styled.div`
-  display: flex;
   align-items: center;
-  justify-content: space-between;
   background-color: #f3f3f3;
   border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
 `;
 
 export const ContactFormBox = styled.form`
   display: flex;
   flex-direction: column;
-  width: 100%;
-  padding: 3rem 5rem;
   gap: 1rem;
+  padding: 3rem 5rem;
+  width: 100%;
 `;
 
 export const RadioGroup = styled.div`
+  align-items: center;
   display: flex;
   gap: 2rem;
-  align-items: center;
 `;
 
 export const RadioOption = styled.div`
-  display: flex;
   align-items: center;
+  display: flex;
   gap: 0.5rem;
 
   input[type="radio"] {
     accent-color: #a4ff00;
-    width: 1rem;
     height: 1rem;
+    width: 1rem;
   }
 
   label {
-    font-size: 1rem;
     color: #191a23;
+    font-size: 1rem;
   }
 `;
 
 export const Label = styled.label`
-  font-size: 0.875rem;
   color: #191a23;
+  font-size: 0.875rem;
   text-align: left;
 `;
 
 export const Input = styled.input`
-  border: 1px solid #cfd0d3;
-  border-radius: 0.5rem;
-  padding: 0.75rem 1rem;
-  font-size: 1rem;
-  width: auto;
   background: #ffffff;
+  border-radius: 0.5rem;
+  border: 1px solid #cfd0d3;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  width: auto;
 `;
 
 export const TextArea = styled.textarea`
-  border: 1px solid #cfd0d3;
-  border-radius: 0.5rem;
-  padding: 0.75rem 1rem;
-  font-size: 1rem;
-  width: auto;
   background: #ffffff;
+  border-radius: 0.5rem;
+  border: 1px solid #cfd0d3;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  width: auto;
 `;
 
 export const SubmitButton = styled.button`
   background-color: #191a23;
-  color: white;
-  padding: 1rem;
-  font-size: 1rem;
-  border: none;
   border-radius: 0.5rem;
-  width: auto;
+  border: none;
+  color: white;
   cursor: pointer;
+  font-size: 1rem;
+  padding: 1rem;
+  width: auto;
 
   &:hover {
     opacity: 0.9;
@@ -79,16 +79,16 @@ export const SubmitButton = styled.button`
 `;
 
 export const SvgDecoration = styled.div`
+  align-items: center;
+  display: flex;
   flex-shrink: 0;
+  justify-content: flex-end;
   overflow: hidden;
   width: auto;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 
   svg {
-    min-width: 100%;
     height: 50%;
+    min-width: 100%;
     transform: translateX(50%);
     
   }
