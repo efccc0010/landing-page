@@ -1,7 +1,7 @@
 import "./App.css";
+import ContactBlock from "./components/ContactBlock/ContactBlock";
 import Heading from "./components/Heading/Heading";
 import LandingPage from "./components/LandingPage/LandingPage";
-import ContactForm from "./components/ServicesBlock/ContactForm";
 import ServicesBlock from "./components/ServicesBlock/ServicesBlock";
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
         label="Contact Us"
         description="Connect with Us: Let's Discuss Your Digital Marketing Needs"
       />
-      <ContactForm></ContactForm>
+      <ContactBlock></ContactBlock>
     </>
   );
 }
