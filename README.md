@@ -52,3 +52,10 @@ export default tseslint.config({
   },
 })
 ```
+Project:
+![image](https://github.com/user-attachments/assets/5bb1a768-3c9c-4d1e-8c33-c9984a981cc5)
+![image](https://github.com/user-attachments/assets/497ea631-1ec1-4110-a890-11dc31c38748)
+
+Figma:
+https://www.figma.com/design/HhfNIezYmcSLx8sZMubR4d/Positivus-Landing-Page-Design--Community-?node-id=25-145&p=f&t=FHO5oqxdC9GrLssG-0
+
