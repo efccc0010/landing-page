@@ -28,8 +28,7 @@
     "remark-gfm": "^4.0.0",
     "styled-components": "^6.1.15",
     "types": "^0.1.1",
-    "url": "^0.11.4",
-    "vite-plugin-svgr": "^4.3.0"
+    "url": "^0.11.4"
   },
   "devDependencies": {
     "@assetpack/core": "^1.2.1",
