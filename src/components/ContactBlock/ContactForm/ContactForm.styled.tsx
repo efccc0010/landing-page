@@ -51,7 +51,8 @@ export const Input = styled.input`
   border: 1px solid #cfd0d3;
   font-size: 1rem;
   padding: 0.75rem 1rem;
-  width: auto;
+  width: 100%;
+  color: #000000
 `;
 
 export const TextArea = styled.textarea`
@@ -60,7 +61,8 @@ export const TextArea = styled.textarea`
   border: 1px solid #cfd0d3;
   font-size: 1rem;
   padding: 0.75rem 1rem;
-  width: auto;
+  width: 100%;
+  resize: none;
 `;
 
 export const SubmitButton = styled.button`
