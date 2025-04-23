@@ -52,7 +52,7 @@ export const Input = styled.input`
   font-size: 1rem;
   padding: 0.75rem 1rem;
   width: 100%;
-  color: #000000
+  color: #000000;
 `;
 
 export const TextArea = styled.textarea`
@@ -92,7 +92,6 @@ export const SvgDecoration = styled.div`
     height: 50%;
     min-width: 100%;
     transform: translateX(50%);
-    
   }
 `;
 
